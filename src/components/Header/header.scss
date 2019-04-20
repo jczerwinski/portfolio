@@ -1,0 +1,21 @@
+@import "../Layout/overrides";
+
+.nav-link {
+  border-bottom: 4px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: 4px solid $blue;
+}
+
+.nav-link.active {
+  border-bottom: 4px solid $red;
+}
+
+.navbar-brand {
+  color: $gray-900
+}
+
+.navbar {
+  background-color: $gray-100;
+}
