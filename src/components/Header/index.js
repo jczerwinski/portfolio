@@ -58,12 +58,12 @@ export default class Header extends React.Component {
             <Navbar expand="sm">
               <Container>
                 <NavbarBrand tag={Link} to="/" className="mr-auto">{data.site.siteMetadata.title}</NavbarBrand>
-                {/*<NavbarToggler onClick={this.toggle} className="mr-2" />
+                <NavbarToggler onClick={this.toggle} className="mr-2" />
                 <Collapse isOpen={this.state.isOpen} navbar>
                   <Nav navbar className="ml-auto">
                     {elements.map((e, i) => <NavItem key={i}><NavLink active={e === ctx.state.active} tag={Link} to={e.link}>{e.name}</NavLink></NavItem>)}
                   </Nav>
-                </Collapse>*/}
+                </Collapse>
               </Container>
             </Navbar>
           );

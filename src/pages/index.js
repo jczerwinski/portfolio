@@ -47,8 +47,8 @@ class Portfolio extends React.Component {
                     {i.node.frontmatter.tags.map(t => <Badge pill style={{marginRight: '.3rem', backgroundColor: color(t)}} key={t}>{t}</Badge>)}
                   </div>
                   <div style={{marginBottom: '1.618rem'}} dangerouslySetInnerHTML={{ __html: i.node.html }} />
-                  <div class="image">
-                    <a href={i.node.frontmatter.link}><Img fluid={i.node.frontmatter.img.childImageSharp.fluid} /></a>
+                  <div className="image">
+                    <Img fluid={i.node.frontmatter.img.childImageSharp.fluid} />
                   </div>
                 </div>
               );
